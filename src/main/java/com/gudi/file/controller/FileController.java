@@ -1,4 +1,4 @@
-package com.java.springPrac.controller;
+package com.gudi.file.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.java.springPrac.service.FileServiceInterface;
-import com.java.util.HttpUtil;
+import com.gudi.file.service.FileServiceInterface;
+import com.gudi.util.HttpUtil;
 
 @Controller
 public class FileController {
