@@ -3,11 +3,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
-	<title>Home</title>
+	<title>file server</title>
 </head>
 <body>
 <h1>
-	file server 
+	file server !
 </h1>
 
 <P> this is fileserver please!</P>
