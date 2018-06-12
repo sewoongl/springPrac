@@ -37,8 +37,8 @@ public class FileService implements FileServiceInterface {
 			try {
 				byte[] bytes = files[i].getBytes();
 //				String path = "D:/workspace/FileServer/src/main/webapp/resources/" + dir + "/";
-//				String path = "/var/www/html/resources/" + dir + "/";
-				String path = req.getSession().getServletContext().getRealPath("/") + "resources/" + dir + "/";
+				String path = "/var/www/html/resources/" + dir + "/";
+//				String path = req.getSession().getServletContext().getRealPath("/") + "resources/" + dir + "/";
 				String dns = "http://gudi.iptime.org:10070/";
 //				String dns = "http://WebServer/";
 				
